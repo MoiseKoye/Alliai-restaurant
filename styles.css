@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&display=swap');
+
+
+/*  Debut barre de navigation  */
+
+.navbar{
+    background-color: rgb(0, 0,0,0.55);
+    font-family: 'Mali'; 
+    height: 12vh;
+    font-size: 3vh;
+    width: 100%;
+   
+}
+
+.navbar .container-fluid .navbar-brand{
+    font-size:7vh;
+    font-family: 'Satisfy';
+    text-transform: none;
+    margin-left: 3vh;
+    color: #fff;
+}
+
+span {
+    font-size: 7vh;
+    color: #D4AF37;
+}
+
+.navbar .container-fluid .navbar-brand sub {
+    font-size: 2vh;
+}
+
+.collapse .navbar-nav .nav-link {
+    color: #fff;
+}
+#navbarSupportedContent ul li  {
+    margin: 1vh;
+    color: #fff;
+}
+
+.nav-item .btn {
+    color: #fff;
+    border-color:none;
+    font-family: 'Alex';
+    font-weight: bold;
+    font-size: 3vh;
+    background-color: #D4AF37;
+    transition: 0.5s;
+}
+
+.nav-item .btn:hover{
+    color:#F5F5DC;
+    background-color:#000080;
+    font-family: 'Alex';
+    
+}
+
+.navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out ,border-color 0.3s ease ;
+}
+
+.navbar .nav-link:hover{
+    padding-bottom: 15px;
+    border-bottom-color:#D4AF37;
+}
+
+/* Fin de la barre de navigation */
+
+/*Debut accueil */
+
+.presentation{   
+    
+    margin-top: 20%;
+    
+}
+.accueil{
+    align-items: center;
+}
+
+
+.presentation h3{
+    
+    margin-top: 3vh;
+    text-align: center;
+    color: #fff;
+    font-family: 'Satisfy';
+    
+}
+
+.presentation p{
+    
+    margin-top: 2vh;
+    text-align: center;
+    color: #fff;
+    font-family: 'Satisfy';
+    
+}
+
+.accueil-reservation  p{
+    color: #fff;
+   
+    font-family: 'Alex';
+   
+    
+}
+.btn{
+    border-color:#fff;
+    background-color: #D4AF37;
+}
+.btn:hover{
+    color:#F5F5DC;
+    background-color:#000080;
+    font-family: 'Alex';
+    border-color: #D4AF37;
+}
+
+.accueil{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.55)),url(/images/three.jpg);
+    height: 550px;
+    position:relative;
+}
+
+/* Fin accueil */ 
+
+
+/* Debut menu */ 
+
+.menu-restaurant{
+    background-color: rgb(0, 0,0,0.55);
+    height: 600px;
+}
+
+.menu-titre h5{
+    margin-top: 2vh;
+    text-align: center;
+    font-family: 'Mali';
+    position: absolute;
+    font-size: 2vh;
+    
+    
+}
+
+#menu-titre{
+    color: #fff;
+    font-family: 'Mali';
+    
+}
+
+#menu-titre h5{
+    font-size: 5vh;
+}
+
+#menu--prin .tab-content g{
+    color: #fff;
+}
+
+.menu-titre p{
+    margin-top: 4vh;
+    margin-left:39%;
+    font-family: 'Mali';
+    position: absolute;
+    font-size: 3vh;
+}
+
+.menu-food{
+    margin-top: 15vh;
+    margin-left:33%;
+    font-family: 'Mali';
+    position: absolute;
+    font-size: 2.5vh;
+    background-color: transparent;
+}
+
+.menu-food .nav-link.active{
+    background-color: #D4AF37;
+    color:#fff ;
+    border-radius: 3vh;
+}
+
+.menu-food .nav-link{
+    color: #fff;
+    margin-left: 3vh;
+}
+
+#nav-menuu a {
+   text-decoration: none;
+}
+
+.btn-menu{
+    background-color: transparent;
+    margin: 2vh;
+    margin-bottom: 1vh;
+    border-radius: 4vh;
+    height: 5vh;
+}
+
+.btn-menu a{
+    color: #fff;
+    
+}
+
+.btn-menu h6{
+    margin-top: 1px;
+    margin-right: 1vh;
+}
+
+#menu--prin{
+    background-color: rgb(121, 95, 57);
+    
+}
+
+.tab-content img{
+    border-radius: 100px;
+    border:4px solid #D4AF37;
+}
+
+/*Fin menu */
+
+
+/* Debut chefs */
+
+.chef-pres-h{
+    margin-top: 5vh;
+    font-size: 5vh;
+    font-family:'Mali';
+    text-align: center;
+    
+}
+
+
+
+
+.chef-pres-p{
+    font-size: 2.5vh;
+    font-family:'Mali';
+    text-align: center;
+}
+
+#chef .row img{
+    border-radius: 100px;
+    border: 5px dashed #D4AF37;
+
+    
+}
+
+/* Fin chef */
+
+
+/* Debut avis */
+
+.avis-client{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.55)),url(/images/four.jpg);
+    height: 550px;
+}
+
+.icone-etoile{
+    color: #D4AF37;
+    font-size: 2.5vh;
+}
+
+.icone-citation-renversé{
+    transform: scaleX(-1);
+    color: #D4AF37;
+    font-size: 20px;
+}
+
+
+.icone-citation{
+    color: #D4AF37;
+    font-size: 20px;
+}
+
+
+
+.carousel-indicators{
+    margin-bottom: -7vh;
+    
+}
+
+.carousel-inner img{
+    border-radius: 100px;
+    box-shadow: 8px 0 0 0 #b4b447;
+}
+
+/* Debut reservation*/
+.commande{
+    background-color: #312b2b;
+    height: 800px;
+}
+
+.mb-5{
+    margin-top: 10vh;
+}
+/* Debut pied de page */
+
+#pied-dp {
+    text-align: center;
+    background-color:  rgb(0, 0,0,0.55);
+    font-family: 'Mali';
+    
+}
+
+#pied-dp a{
+    color: #fff; 
+    text-decoration: none; 
+    font-family: 'Satisfy';
+}
